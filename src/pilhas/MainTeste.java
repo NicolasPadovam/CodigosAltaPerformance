@@ -1,6 +1,4 @@
-package teste;
-
-import pilhas.PilhaInt;
+package pilhas;
 
 public class MainTeste {
     public static void main(String[] args) {
@@ -14,8 +12,18 @@ public class MainTeste {
         pilha.push(17);
         pilha.push(19);
         pilha.push(11);
-        System.out.println("Valor retirado da pilha: "+pilha.pop());
-        System.out.println("Valor retirado da pilha: "+pilha.pop());
+
+        if(pilha.isEmpty())
+            System.out.println("Stack is empty!");
+        else{
+            System.out.println("Valor no top da pilha : "+ pilha.top());
+        }
+
+        System.out.println("Apresentação dos valores empilhados: ");
+        pilha.esvazie();
+
+
+
 
     }
 }
