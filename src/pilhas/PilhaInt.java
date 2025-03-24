@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class PilhaInt {
 
-    final int N = 6;
+    final int N = 9;
     int[] dados = new int[N];
     int topo;
 
