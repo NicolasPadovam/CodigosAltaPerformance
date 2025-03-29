@@ -24,13 +24,13 @@ public class Aluno {
 
     public void calculaMedia(){
         media = (nota1 + nota2) / 2 ;
-
     }
 
     public void apresenta(){
+        System.out.println("-------------");
         System.out.println("Aluno: "+nome+"\t RM: "+rm);
         System.out.println("Nota1: "+nota1+"\t Nota2: "+nota2);
-        System.out.printf("%s%.1f\n","Media :", media);
+        System.out.printf("%s%.1f\n","Media: ", media);
     }
 
 }

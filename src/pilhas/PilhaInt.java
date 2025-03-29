@@ -1,7 +1,5 @@
 package pilhas;
 
-import java.sql.SQLOutput;
-
 public class PilhaInt {
 
     public final int N = 9 ;
@@ -13,10 +11,6 @@ public class PilhaInt {
         topo = 0;
     }
 
-    public boolean isFull() {
-        return (topo == N);
-    }
-
     public void push(int elem) {
         if (isFull()) {
             System.out.println("Stack overflow");
@@ -26,18 +20,21 @@ public class PilhaInt {
         }
     }
 
-    public boolean isEmpty() {
-        return (topo == 0);
-    }
-
     public int pop() {
         topo--;
         return (dados[topo]);
     }
 
-
     public int top() {
         return dados[topo - 1];
+    }
+
+    public boolean isEmpty() {
+        return (topo == 0);
+    }
+
+    public boolean isFull() {
+        return (topo == N);
     }
 
     public void esvazie() {
