@@ -44,4 +44,11 @@ public class PilhaInt {
         System.out.println();
     }
 
+
+    public void matheus (){
+        String corinthians = "timao";
+        System.out.println("EU torco pro" + corinthians);
+
+    }
+
 }
