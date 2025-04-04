@@ -45,10 +45,5 @@ public class PilhaInt {
     }
 
 
-    public void matheus (){
-        String corinthians = "timao";
-        System.out.println("EU torco pro" + corinthians);
-
-    }
 
 }
