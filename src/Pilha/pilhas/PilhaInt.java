@@ -1,4 +1,4 @@
-package pilhas;
+package Pilha.pilhas;
 
 public class PilhaInt {
 

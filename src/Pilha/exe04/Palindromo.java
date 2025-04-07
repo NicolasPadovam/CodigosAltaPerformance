@@ -1,6 +1,6 @@
-package exe04;
+package Pilha.exe04;
 
-import pilhas.PilhaInt;
+import Pilha.pilhas.PilhaInt;
 
 import java.util.Scanner;
 
