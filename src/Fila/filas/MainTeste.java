@@ -1,7 +1,5 @@
 package Fila.filas;
 
-import filas.FilaInt;
-
 public class MainTeste {
     public static void main(String[] args) {
         FilaInt fila = new FilaInt();
