@@ -3,7 +3,6 @@ package ListasEncadeadas;
 public class ListaEncadeada {
     public static void main(String[] args) {
         NO lista = new NO();
-
         lista.dado = 1;
         lista.prox = null;
 

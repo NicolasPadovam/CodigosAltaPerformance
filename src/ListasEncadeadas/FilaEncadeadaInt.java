@@ -1,12 +1,13 @@
-package FilasEncadeadas;
+package ListasEncadeadas.FilasEncadeadas;
 
 public class FilaEncadeadaInt {
-    private static class NO{
+
+    public static class NO{
         int dado;
         NO prox;
     }
 
-    private NO ini, fim;
+    public NO ini, fim;
 
     public void init (){
       ini = fim = null;
